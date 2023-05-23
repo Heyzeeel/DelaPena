@@ -542,6 +542,18 @@ body{
     width: 100%;
     padding: 0.5em 0;
 }
+.btn{
+    display: inline-block;
+    background: #C2649A;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #8B4C70;
+}
 .row h1{
     width:100%;
     text-align: center;
@@ -595,7 +607,7 @@ body{
     background: linear-gradient(#6045ea,#8567f7);
     color: #ffffff;
 }
-.ard hover .img-container{
+.card hover .img-container{
     transform: scale(1.15);
 }
 @media screen and (min-width: 768px){
