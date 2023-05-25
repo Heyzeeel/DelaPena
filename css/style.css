@@ -852,6 +852,72 @@ textarea.input {
 /* End of Contact Us Page */
 
 /* Servicess Page */
+.ser-title h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 42px;
+}
+.ser-title h1::after{
+    content: "";
+    height: 4px;
+    width: 230px;
+    background-color: #000;
+    display: block;
+    margin: auto;
+}
+.ser-services{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px auto;
+    text-align: center;
+}
+.ser-card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 20px;
+    padding: 20px 20px;
+    background-color: #efefef;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.ser-card:hover{
+    background-color: linear-gradient(#C2649A, #e4c7e4);
+    transition: 0.4s ease;
+}
+.ser-card .ser-icon{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.ser-card h2{
+    font-size: 28px;
+    color: #5a1b6e;
+    margin-bottom: 20px;
+}
+.ser-card p{
+    font-size: 17px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    color: #222327;
+}
+.ser-button{
+    font-size: 15px;
+    text-decoration: none;
+    color: #5a1b6e;
+    background-color: #77405f;
+    padding: 8px 12px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+.ser-button:hover{
+    background-color: #a993ff;
+    transition: 0.4s ease;
+}
+
 
 /* End of Services Page */
 
