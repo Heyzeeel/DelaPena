@@ -854,8 +854,9 @@ textarea.input {
 /* Servicess Page */
 .ser-title h1{
     text-align: center;
-    padding-top: 50px;
+    padding-top: 100px;
     font-size: 42px;
+    color:#fff;
 }
 .ser-title h1::after{
     content: "";
@@ -886,7 +887,7 @@ textarea.input {
     cursor: pointer;
 }
 .ser-card:hover{
-    background-color: linear-gradient(#C2649A, #e4c7e4);
+    background-color: #C2649A;
     transition: 0.4s ease;
 }
 .ser-card .ser-icon{
@@ -916,6 +917,17 @@ textarea.input {
 .ser-button:hover{
     background-color: #a993ff;
     transition: 0.4s ease;
+}
+@media screen and (max-width:940px){
+    .ser-services{
+        display: flex;
+        flex-direction: column;
+    }
+    .ser-card{
+        width: 85%;
+        display: flex;
+        margin: 20px 0px;
+    }
 }
 
 
